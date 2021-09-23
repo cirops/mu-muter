@@ -47,6 +47,10 @@ const allFilePaths = getAllFiles(path.join(".", "Sound"));
 
 const baseFolderIndex = getBaseFolderIndex(allFilePaths[0]);
 
+console.log(
+  "Note: This script works but is in super alpha, backup your Sound folder somewhere else, don't trust this!"
+);
+
 if (!fs.existsSync("bk")) {
   createBackup(allFilePaths, baseFolderIndex);
 }

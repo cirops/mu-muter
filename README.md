@@ -18,6 +18,14 @@ Have you ever wondered if you can leave your MU Online character semi-afk, and o
 
 - v96;
 
+## Troubleshooting
+- If you get some file permission errors, you could try running this on an admin console;
+- If you get some "file not found" errors, your Sounds source folder is not in the right place;
+
+## Contributing
+- It'd be great if people tested this on their multiple MU versions and seasons. It probably works on all of them, but you can never know for sure;
+- Just clone the repo and fiddle with it, if you encounter an error or want to request a feature, you can PR a change or submit an issue;
+
 ## Roadmap
 
 - [x] Basic functionality, for proof of concept;
